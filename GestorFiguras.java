@@ -27,7 +27,7 @@ public class GestorFiguras {
         v[2] = new Square(5);
         v[3] = new Circle(120);
 
-        double res = GestorFiguras.sum(v);
+        double res = sum(v);
 
         System.out.println("sum: " + res);
 
